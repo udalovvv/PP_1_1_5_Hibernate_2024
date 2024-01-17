@@ -1,10 +1,13 @@
 package jm.task.core.jdbc.model;
 
+import lombok.Data;
+
 import javax.persistence.Column;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Table
+@Data
 public class User {
     @Id
     private Long id;
